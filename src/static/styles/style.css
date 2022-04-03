@@ -1,0 +1,42 @@
+#main-content {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .nav-link i, a {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-link i, a {
+        font-size: 1.5rem;
+    }
+}
+
+#navbar-items a, i{
+    text-align: center;
+    color: #818181;
+}
+
+#navbar-items .active {
+    color: #595cef;
+}
+
+#navbar-container {
+    background-color: #f1f1f1;
+}
+
+.dropdown-item {
+    font-size: 1.2vw;
+}
+
+.action-buttons {
+    width: 400px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.modal-header {
+    background: #000000;
+}
