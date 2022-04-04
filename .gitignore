@@ -1,5 +1,7 @@
 venv/
 
+src/static/resources/keys.py
+
 *.pyc
 __pycache__/
 
@@ -18,4 +20,3 @@ build/
 /.idea/inspectionProfiles/profiles_settings.xml
 /.idea/Stock Market Application.iml
 /.idea/vcs.xml
-/src/static/resources/keys.py
