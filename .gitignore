@@ -1,5 +1,7 @@
 venv/
 
+keys.py
+
 *.pyc
 __pycache__/
 
@@ -12,3 +14,9 @@ htmlcov/
 dist/
 build/
 *.egg-info/
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/Stock Market Application.iml
+/.idea/vcs.xml
