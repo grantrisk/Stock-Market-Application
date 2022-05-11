@@ -1,2 +1,6 @@
-Flask==2.1.1
+Flask
 requests
+pandas
+numpy
+scipy
+alpaca-trade-api

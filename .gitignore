@@ -1,6 +1,6 @@
 venv/
 
-src/static/resources/keys.py
+src/static/resources/config.py
 
 *.pyc
 __pycache__/

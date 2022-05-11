@@ -2,7 +2,6 @@ from flask import Flask
 
 from blueprints.index import index_page
 
-
 # app = Flask(__name__)
 app = Flask(__name__, static_url_path='/static')
 
