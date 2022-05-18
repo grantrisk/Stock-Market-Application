@@ -10,7 +10,6 @@
 This application will pull data from the Alpaca API and can submit buy and sell orders.
 
 ### Built With
-* [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 * [Alpaca API](https://alpaca.markets/)
 
 <br>
@@ -24,9 +23,18 @@ This application will pull data from the Alpaca API and can submit buy and sell 
 3. Open "Stock Market Application" folder, which was cloned from repo, in Pycharm
 4. Create or add Virtual Environment into your project folder inside IDE
 5. [Install all dependencies](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html) from requirements.txt into your virtual environment 
-6. Run app.py through IDE
-7. Open website on http://127.0.0.1:5000 (local host) in chrome browser
+6. Specify Environment Variables in IDE
+7. Run app.py through IDE
 
+<br>
+
+## Environment Variables
+
+| Environment                      | Default                          | Description                   |
+|----------------------------------|----------------------------------|-------------------------------|
+| APCA_API_BASE_URL=url            | https://paper-api.alpaca.markets | The Web API Key From Firebase |
+| APCA_API_KEY_ID=<key_id>         |                                  | Your API Key                  | 
+| APCA_API_SECRET_KEY=<secret_key> |                                  | Your API Secret Key           |
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

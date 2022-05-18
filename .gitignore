@@ -1,22 +1,5 @@
 venv/
 
-src/static/resources/config.py
+src/config.py
 
-*.pyc
-__pycache__/
-
-instance/
-
-.pytest_cache/
-.coverage
-htmlcov/
-
-dist/
-build/
-*.egg-info/
-/.idea/.gitignore
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/inspectionProfiles/profiles_settings.xml
-/.idea/Stock Market Application.iml
-/.idea/vcs.xml
+.idea/

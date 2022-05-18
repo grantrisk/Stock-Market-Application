@@ -1,6 +1,1 @@
-Flask
-requests
-pandas
-numpy
-scipy
 alpaca-trade-api
