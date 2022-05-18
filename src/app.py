@@ -1,11 +1,17 @@
-from flask import Flask
+from alpaca_trade_api.rest import REST, TimeFrame
 
-from blueprints.index import index_page
+api = REST()
 
-# app = Flask(__name__)
-app = Flask(__name__, static_url_path='/static')
+# --------------- Iterate Over Bars ---------------
+# def process_bar(bar):
+#     # process bar
+#     print(bar)
+#
+#
+# bar_iter = api.get_bars_iter("AAPL", TimeFrame.Hour, "2021-06-08", "2021-06-08", adjustment='raw')
+# for bar in bar_iter:
+#     process_bar(bar)
 
-app.register_blueprint(index_page, url_prefix='/')
-
-if __name__ == '__main__':
-    app.run(debug=True)
+# --------------- Get All Bars Once ---------------
+bars = api.get_bars("AAPL", TimeFrame.Hour, "2022-05-10", "2022-05-10", adjustment='raw').df
+print(bars)
